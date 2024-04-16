@@ -1,5 +1,5 @@
 # David Amos 4/16/2024 Module 8.2 Assignment
-# This program queries the movies database
+# This program queries and modifies the movies database
 import mysql.connector
 from mysql.connector import errorcode
 config = {
