@@ -12,10 +12,6 @@ CREATE USER 'adventures_user'@'localhost' IDENTIFIED WITH mysql_native_password 
 -- grant all privileges to the movies database to user movies_user on localhost 
 GRANT ALL PRIVILEGES ON outland_adventures.* TO 'adventures_user'@'localhost';
 
-DROP TABLE IF EXISTS EMPLOYEE;
-DROP TABLE IF EXISTS Trips;
-DROP TABLE IF EXISTS Supply;
-DROP TABLE IF EXISTS Customer;
 
 CREATE TABLE IF NOT EXISTS EMPLOYEE (
     EmployeeID INT PRIMARY KEY,
